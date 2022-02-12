@@ -26,6 +26,7 @@ Resp: You can execute a /checkDelegations to verify the status of all of your de
 - if the collator is in the active set; 
 - your position in the delegators list; 
 - if you are receiving rewards and the percentage of your GLMR allocated in each collator in case you have more than one. <br />
+<br />
 **Besides that, you can also set an alarm to notify you whenever you stop receiving rewards regardless of the reason.**
 
 2. How do I know if my collator is in the active pool set? <br />
