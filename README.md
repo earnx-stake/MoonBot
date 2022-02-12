@@ -30,7 +30,7 @@ Besides that, you can also set an alarm to notify you whenever you stop receivin
 Resp: You set an alarm to notify you whenever you stop receiving rewards, and one of the reasons is the collator be kicked out of the active pool set. Executing /checkDelegations also shows this info, but setting an alarm is better because there is no need to take time to verify in the blockchain.
 
 3. How do I know if I have enough GLMR in my Address? <br />
-Resp: You can execute /alarmBalanceTarget to receive a notification when you balance reaches a threshold defined by you.
+Resp: You can execute /alarmBalanceTarget to receive a notification when your balance reaches a threshold defined by you.
 
 
 PS: It's important to highlight that all informations that the bot handles are already public in the blockchain.
