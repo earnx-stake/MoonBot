@@ -1,6 +1,8 @@
 # EarnX-Moon-Bot
 EarnX-Moon-Bot is a Telegram bot developed by EarnX team with the aim of helping Moonbeam community keep track of delegations, rewards and other variables of the blockchain. It's very common to verify your wallet address twice a day to check if the staking rewards was distributed or even if your collator is in the active pool set. Using EarnX-Moon-Bot you can easily receive these notifications wherever you stay.
 
+We see on Moonbeam Discord almost everyday delegators trying to figure out why did they stop receiving rewards. The answer is very long and we embedded all the possibilities in just one notification in the Moonbot, make the delegations life easy. Besides that we developed other functionalities of great value to Moonbeam Community.
+
 Please find the bot on Telegram as @earnx_moon_bot (MoonBot).
 
 **List of commands:**
