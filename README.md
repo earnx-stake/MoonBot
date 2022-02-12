@@ -17,13 +17,13 @@ You need to use the /setAddress command to associate the id num (1 to 5) to your
 
 ## Use-Cases
 
-1. How do I know if I am receiving rewards? 
+1. How do I know if I continue receiving rewards? <br />
 Resp: You can execute a /checkDelegations to verify the status of all of your delegations and the following info is showed: collator name, the GLMR staked, if the collator is in the active set, your position in the delegator list, if you are receiving rewards and the percentage of your GLMR allocated in each collator, in case you have more than one. Besides that, you can also set an alarm to notify you whenever you stop receiving rewards regardless of the reason.
 
-2. How do I know if my collator is in the active pool set?
+2. How do I know if my collator is in the active pool set? <br />
 Resp: You set an alarm to notify you whenever you stop receiving rewards, and one of the reasons is the collator be kicked out of the active pool set. Executing /checkDelegations also shows this info, but setting an alarm is better because there is no need to take time to verify in the blockchain.
 
-3. How do I know if I have enough GLMR in my Address?
+3. How do I know if I have enough GLMR in my Address? <br />
 Resp: You can execute /alarmBalanceTarget to receive a notification when you balance reaches a threshold defined by you.
 
 
