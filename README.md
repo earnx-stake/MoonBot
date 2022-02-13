@@ -16,6 +16,9 @@ Please find the bot on Telegram as @earnx_moon_bot (MoonBot).
 7. `/alarmBalanceTarget num value`: configure an alarm that will trigger in threshold value to the Moonbeam address associated with de id num;
 8. `/alarmBalanceChange num`: configure an alarm that will notify you every time the balance of the address num changes
 9. `/alarmRewards num`: configure an alarm that will notify the address num whenever you stop receiving rewards regardless of the reason
+10. `/cleanAlarmBalanceTarget num`: delete the AlarmBalanceTarget alarm configuration of the address num;
+11. `/cleanAlarmBalanceChange num`: delete the AlarmBalanceChang alarm configuration of the address num;
+12. `/cleanAlarmRewards num`: delete the AlarmRewards alarm configuration of the address num;
 
 You need to use the `/setAddress` command to associate the id num (1 to 5) to your Moonbeam addresses, so you can refer them on the other bot commands.
 
@@ -33,17 +36,21 @@ You need to use the `/setAddress` command to associate the id num (1 to 5) to yo
 
   `/checkDelegations 1`
 
-4. How to configure an alarm to send me a notification when my balance change?
+4. How to configure an alarm to send me a notification when my balance of the address 1 change?
   
   `/alarmBalanceChange 1`
   
-5. How to configure an alarm to send me notification when I stop receiving rewards?
+5. How to configure an alarm to send me notification when I stop receiving rewards of the address 1?
   
   `/alarmRewards 1`
   
 6. How to configure an alarm to send me a notification when my balance reach a threshold of 100 GLMR?
   
   `/alarmBalanceTarget 1 100`
+
+7. How to clean an alarm of Balance Change of the address 1?
+
+  `/cleanAlarmBalanceChange 1`
 
 ## Use-Cases
 
