@@ -14,8 +14,8 @@ Please find the bot on Telegram as @earnx_moon_bot (MoonBot).
 5. `/listAddress`: lists the Moonbeam addresses registered;
 6. `/checkDelegations num`: check delegations for all collators associated with the address num;
 7. `/alarmBalanceTarget num value`: configure an alarm that will trigger in threshold value to the address associated with num;
-8. `/alarmBalanceChange num`: configure an alarm that will notify you every time the balance of the address num changes
-9. `/alarmRewards num`: configure an alarm that will notify the address num whenever you stop receiving rewards regardless of the reason
+8. `/alarmBalanceChange num`: configure an alarm that will notify you every time the balance of the address num changes;
+9. `/alarmRewards num`: configure an alarm that will notify the address num whenever you stop receiving rewards regardless of the reason;
 10. `/cleanAlarmBalanceTarget num`: delete the AlarmBalanceTarget alarm configuration of the address num;
 11. `/cleanAlarmBalanceChange num`: delete the AlarmBalanceChang alarm configuration of the address num;
 12. `/cleanAlarmRewards num`: delete the AlarmRewards alarm configuration of the address num;
