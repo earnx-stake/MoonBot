@@ -32,7 +32,7 @@ Resp: You can execute a /checkDelegations to verify the status of all of your de
 2. How do I know if my collator is in the active pool set? <br />
 Resp: You set an alarm to notify you whenever you stop receiving rewards, and one of the reasons is the collator be kicked out of the active pool set. Executing /checkDelegations also shows this info, but setting an alarm is better because there is no need to take time to verify in the blockchain.
 
-3. How do I know if I have enough GLMR in my Address? <br />
+3. How do I know if I have enough GLMR in my Address to use for example in a DeFI operation? <br />
 Resp: You can execute /alarmBalanceTarget to receive a notification when your balance reaches a threshold defined by you.
 
 
