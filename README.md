@@ -7,16 +7,16 @@ Please find the bot on Telegram as @earnx_moon_bot (MoonBot).
 
 **List of commands:**
 
-1. /start: initialize the bot;
-2. /help: list of the available commands;
-3. /setAddress num address: register a Moonbeam address with the num id. The num can be in the range 1 to 5, that means you can track up to 5 addresses;
-4. /balance num: shows the balance of a Moonbeam address with the id num;
-5. /listAddress: lists the Moonbeam addresses registered;
-6. /checkDelegations num: check delegations for all collators associated with the address num;
-7. /alarmBalanceTarget num value: configure an alarm that will trigger in threshold value to the Moonbeam address associated with de id num;
-8. /alarmBalanceChange num: configure an alarm that will notify you every time the balance of the address num changes
+1. `/start`: initialize the bot;
+2. `/help`: list of the available commands;
+3. `/setAddress num address`: register a Moonbeam address with the num id. The num can be in the range 1 to 5, that means you can track up to 5 addresses;
+4. `/balance num`: shows the balance of a Moonbeam address with the id num;
+5. `/listAddress`: lists the Moonbeam addresses registered;
+6. `/checkDelegations num`: check delegations for all collators associated with the address num;
+7. `/alarmBalanceTarget num value`: configure an alarm that will trigger in threshold value to the Moonbeam address associated with de id num;
+8. `/alarmBalanceChange num`: configure an alarm that will notify you every time the balance of the address num changes
 
-You need to use the /setAddress command to associate the id num (1 to 5) to your Moonbeam addresses, so you can refer them on the other bot commands.
+You need to use the `/setAddress` command to associate the id num (1 to 5) to your Moonbeam addresses, so you can refer them on the other bot commands.
 
 ## How to use the MoonBot
 
