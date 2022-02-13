@@ -48,7 +48,7 @@ You need to use the `/setAddress` command to associate the id num (1 to 5) to yo
 ## Use-Cases
 
 1. How do I know if I continue receiving rewards? <br />
-Resp: You can execute a /checkDelegations to verify the status of all of your delegations and the following info is showed: 
+Resp: You can execute a `/checkDelegations` to verify the status of all of your delegations and the following info is showed: 
 - collator name; 
 - the GLMR staked; 
 - if the collator is in the active set; 
@@ -58,13 +58,13 @@ Resp: You can execute a /checkDelegations to verify the status of all of your de
 **Besides that, you can also set an alarm to notify you whenever you stop receiving rewards regardless of the reason.**
 
 2. How do I know if my collator is in the active pool set? <br />
-Resp: You set an alarm to notify you whenever you stop receiving rewards, and one of the reasons is the collator be kicked out of the active pool set. Executing /checkDelegations also shows this info, but setting an alarm is better because there is no need to take time to verify in the blockchain.
+Resp: You set an alarm to notify you whenever you stop receiving rewards, and one of the reasons is the collator be kicked out of the active pool set. Executing `/checkDelegations` also shows this info, but setting an alarm is better because there is no need to take time to verify in the blockchain.
 
 3. How do I know if I have enough GLMR in my Address to use for example in a DeFI operation? <br />
-Resp: You can execute /alarmBalanceTarget to receive a notification when your balance reaches a threshold defined by you.
+Resp: You can execute `/alarmBalanceTarget` to receive a notification when your balance reaches a threshold defined by you.
 
 4. What happens if my collator was kicked out of the active pool set just for a couple of rounds?
-Resp: To deal with this situation, you have to set an /alarmRewards to your address. When the first collator go out of the active pool, you will receive a notification. So you can execute a revoke without lose time. Two rounds after that, your collator come back to the active pool set. So you will receive another notification warning that you begin receiving rewards again. In this case, you can decide to cancel the revocation.
+Resp: To deal with this situation, you have to set an `/alarmRewards` to your address. When the first collator go out of the active pool, you will receive a notification. So you can execute a revoke without lose time. Two rounds after that, your collator come back to the active pool set. So you will receive another notification warning that you begin receiving rewards again. In this case, you can decide to cancel the revocation.
 
 
 PS: It's important to highlight that all informations that the bot handles are already public in the blockchain.
