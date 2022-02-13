@@ -62,7 +62,7 @@ Resp: You can execute a `/checkDelegations` to verify the status of all of your 
 - your position in the delegators list; 
 - if you are receiving rewards and the percentage of your GLMR allocated in each collator in case you have more than one. <br />
 
-**Besides that, you can also set an alarm to notify you whenever you stop receiving rewards regardless of the reason.**
+**Besides that, you can also set an `/alarmRewards` to notify you whenever you stop receiving rewards regardless of the reason.**
 
 2. How do I know if my collator is in the active pool set? <br />
 Resp: You set an alarm to notify you whenever you stop receiving rewards, and one of the reasons is the collator be kicked out of the active pool set. Executing `/checkDelegations` also shows this info, but setting an `/alarmRewards` is better because there is no need to take time to verify in the blockchain.
