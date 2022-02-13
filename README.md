@@ -26,23 +26,23 @@ You need to use the /setAddress command to associate the id num (1 to 5) to your
 
 2. How to list my registered addressed?
 
-  /listAddress
+  `/listAddress`
 
 3. How to check the status of all delegations of my address 1?
 
-  /checkDelegations 1
+  `/checkDelegations 1`
 
 4. How to configure an alarm to send me a notification when my balance change?
   
-  /alarmBalanceChange 1
+  `/alarmBalanceChange 1`
   
 5. How to configure an alarm to send me notification when I stop receiving rewards?
   
-  /alarmRewards 1
+  `/alarmRewards 1`
   
 6. How to configure an alarm to send me a notification when my balance reach a threshold of 100 GLMR?
   
-  /alarmBalanceTarget 1 100
+  `/alarmBalanceTarget 1 100`
 
 ## Use-Cases
 
