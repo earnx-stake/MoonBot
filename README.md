@@ -22,7 +22,7 @@ You need to use the /setAddress command to associate the id num (1 to 5) to your
 
 1. How to register my Moonbeam address?
 
-  /setAddress 1 <myaddress>
+  '/setAddress 1 <myaddress>'
 
 2. How to list my registered addressed?
 
