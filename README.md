@@ -1,7 +1,7 @@
 # MoonBot
-MoonBot is a Telegram bot developed by EarnX team with the aim of helping Moonbeam community keep track of delegations, rewards and other variables of the blockchain. It's very common to verify your wallet address twice a day to check if the staking rewards was distributed or even if your collator is in the active pool set. Using EarnX-Moon-Bot you can easily receive these notifications wherever you stay.
+MoonBot is a Telegram bot developed by EarnX team with the aim of helping Moonbeam community keep track of delegations, rewards and other variables of the blockchain. It's very common to verify your wallet address twice a day to check if the staking rewards was distributed or even if your collator is in the active pool set. Using MoonBot you can easily receive these notifications wherever you stay.
 
-We see on Moonbeam Discord almost everyday delegators trying to figure out why did they stop receiving rewards. The answer is very long and we embedded all the possibilities in just one notification in the Moonbot, make the delegations life easy. Besides that we developed other functionalities of great value to Moonbeam Community.
+We see on Moonbeam Discord almost everyday delegators trying to figure out why did they stop receiving rewards. The answer is very long and we embedded all the possibilities in just one notification in the Moonbot, make the delegations life easier. Besides that we developed other functionalities of great value to Moonbeam Community.
 
 Please find the bot on Telegram as @earnx_moon_bot (MoonBot).
 
@@ -66,7 +66,7 @@ Resp: You can execute `/alarmBalanceTarget` to receive a notification when your 
 4. What happens if my collator was kicked out of the active pool set just for a couple of rounds?
 Resp: To deal with this situation, you have to set an `/alarmRewards` to your address. When the first collator go out of the active pool, you will receive a notification. So you can execute a revoke without lose time. Two rounds after that, your collator come back to the active pool set. So you will receive another notification warning that you begin receiving rewards again. In this case, you can decide to cancel the revocation.
 
-5. What happens if I staked in two collator and both were kicked out from the active pool set?
+5. What happens if I staked GLMR in two collators and both were kicked out from the active pool set?
 Resp: You set an `/alarmRewards` and whenever you stop receiving rewards regardless of the collator you will receive a notification. And when both collators come back to the active set you will receive a notification that you begin receiving rewards again. 
 
 
