@@ -14,8 +14,35 @@ Please find the bot on Telegram as @earnx_moon_bot (MoonBot).
 5. /listAddress: lists the Moonbeam addresses registered;
 6. /checkDelegations num: check delegations for all collators associated with the address num;
 7. /alarmBalanceTarget num value: configure an alarm that will trigger in threshold value to the Moonbeam address associated with de id num;
+8. /alarmBalanceChange num: configure an alarm that will notify you every time the balance of the address num changes
 
 You need to use the /setAddress command to associate the id num (1 to 5) to your Moonbeam addresses, so you can refer them on the other bot commands.
+
+## How to use the MoonBot
+
+1. How to register my Moonbeam address?
+
+  /setAddress 1 <myaddress>
+
+2. How to list my registered addressed?
+
+  /listAddress
+
+3. How to check the status of all delegations of my address 1?
+
+  /checkDelegations 1
+
+4. How to configure an alarm to send me a notification when my balance change?
+  
+  /alarmBalanceChange 1
+  
+5. How to configure an alarm to send me notification when I stop receiving rewards?
+  
+  /alarmRewards 1
+  
+6. How to configure an alarm to send me a notification when my balance reach a threshold of 100 GLMR?
+  
+  /alarmBalanceTarget 1 100
 
 ## Use-Cases
 
