@@ -7,6 +7,8 @@ Please find the bot on Telegram as @earnx_moon_bot (MoonBot).
 
 **List of commands:**
 
+As a pre-requisite you need to have a username on Telegram (setusername on settings).
+
 1. `/start`: initialize the bot;
 2. `/help`: list of the available commands;
 3. `/setAddress num address`: register a Moonbeam address with the num id. The num can be in the range 1 to 5, that means you can track up to 5 addresses;
