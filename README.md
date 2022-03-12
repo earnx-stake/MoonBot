@@ -21,6 +21,7 @@ As a pre-requisite you need to have a username on Telegram (setusername on setti
 10. `/cleanAlarmBalanceTarget num`: delete the AlarmBalanceTarget alarm configuration of the address num;
 11. `/cleanAlarmBalanceChange num`: delete the AlarmBalanceChang alarm configuration of the address num;
 12. `/cleanAlarmRewards num`: delete the AlarmRewards alarm configuration of the address num;
+13. `/price`: get current GLMR prices from coingecko.com
 
 You need to use the `/setAddress` command to associate the id num (1 to 5) to your Moonbeam addresses, so you can refer them on the other bot commands.
 
