@@ -24,6 +24,43 @@ As a pre-requisite you need to have a username on Telegram (setusername on setti
 
 You need to use the `/setAddress` command to associate the id num (1 to 5) to your Moonbeam addresses, so you can refer them on the other bot commands.
 
+**Commands for Collators:**
+
+Summary of the configuration commands:
+
+1. How to register my Moonbeam address?
+`/setAddress num address` 
+
+Register a Moonbeam address with the num id. The num can be in the range of 1 to 5, which means you can track up to 5 addresses;
+
+Where the address is the collator address.
+
+eg using EarnX address: 
+`/setAddress 1 0xa1e5E3C161Bceb944b655364a6848F47c6e93b56`
+
+2. How to configure the collator rank alarm?
+`/alarmCollatorRank 1 <minimum rank to be alarmed>`
+
+If you configure the minimum as 1, all rank changes will be notified:
+eg 1: `/alarmCollatorRank 1 1`
+eg 2: `/alarmCollatorRank 1 40`
+
+When any rank change happens, you will be notified:
+
+alarm collator rank
+collator: EarnX 💗 Bonus Rewards
+- previous rank: 42
+- current   rank: 43
+- current total bonded: 1343.7k GLMR
+- distance to last collator: 151.1k GLMR
+
+Does this feature keep track of changes in the waiting list?
+Yes, it does! If a newcomer on the waiting list has a counted backing higher than a collator in the active pool set, this difference will be shown immediately, giving time to the collator to react and defend its position.
+
+How to clean the `/alarmCollatorRank`?
+`/cleanalarmCollatorRank 1` where 1 is the address already registered.
+
+
 ## How to use the MoonBot
 
 1. How to register my Moonbeam address?
