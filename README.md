@@ -47,12 +47,12 @@ eg 2: `/alarmCollatorRank 1 40` <br />
 
 When any rank change happens, you will be notified:
 
-alarm collator rank
+```alarm collator rank
 collator: EarnX 💗 Bonus Rewards
 - previous rank: 42
 - current   rank: 43
 - current total bonded: 1343.7k GLMR
-- distance to last collator: 151.1k GLMR
+- distance to last collator: 151.1k GLMR ```
 
 Does this feature keep track of changes in the waiting list?
 Yes, it does! If a newcomer on the waiting list has a counted backing higher than a collator in the active pool set, this difference will be shown immediately, giving time to the collator to react and defend its position.
