@@ -28,22 +28,22 @@ You need to use the `/setAddress` command to associate the id num (1 to 5) to yo
 
 Summary of the configuration commands:
 
-1. How to register my Moonbeam address?
+1. How to register my Moonbeam address?<br />
 `/setAddress num address` 
 
 Register a Moonbeam address with the num id. The num can be in the range of 1 to 5, which means you can track up to 5 addresses;
 
 Where the address is the collator address.
 
-eg using EarnX address: 
+eg using EarnX address: <br />
 `/setAddress 1 0xa1e5E3C161Bceb944b655364a6848F47c6e93b56`
 
-2. How to configure the collator rank alarm?
+2. How to configure the collator rank alarm? <br />
 `/alarmCollatorRank 1 <minimum rank to be alarmed>`
 
-If you configure the minimum as 1, all rank changes will be notified:
-eg 1: `/alarmCollatorRank 1 1`
-eg 2: `/alarmCollatorRank 1 40`
+If you configure the minimum as 1, all rank changes will be notified: <br />
+eg 1: `/alarmCollatorRank 1 1` <br />
+eg 2: `/alarmCollatorRank 1 40` <br />
 
 When any rank change happens, you will be notified:
 
@@ -57,7 +57,7 @@ collator: EarnX 💗 Bonus Rewards
 Does this feature keep track of changes in the waiting list?
 Yes, it does! If a newcomer on the waiting list has a counted backing higher than a collator in the active pool set, this difference will be shown immediately, giving time to the collator to react and defend its position.
 
-How to clean the `/alarmCollatorRank`?
+How to clean the `/alarmCollatorRank`? <br />
 `/cleanalarmCollatorRank 1` where 1 is the address already registered.
 
 
