@@ -5,6 +5,48 @@ We see on Moonbeam Discord almost every day delegators trying to figure out why 
 
 Please find the bot on Telegram as @earnx_moon_bot (MoonBot).
 
+## How to use the MoonBot
+
+1. How to register my Moonbeam address?
+
+  `/setAddress 1 <myaddress>`
+
+2. How to list my registered addressed?
+
+  `/listAddress`
+
+3. How to check the status of all delegations of my address 1?
+
+  `/checkDelegations 1`
+
+4. How to configure an alarm to send me a notification when my balance of the address 1 change?
+  
+  `/alarmBalanceChange 1`
+  
+5. How to configure an alarm to send me notification when I stop receiving rewards of the address 1?
+  
+  `/alarmRewards 1`
+  
+6. How to configure an alarm to send me a notification when my balance reach a threshold of 100 GLMR?
+  
+  `/alarmBalanceTarget 1 100`
+
+7. How to clean an alarm of Balance Change of the address 1?
+
+  `/cleanAlarmBalanceChange 1`
+  
+8. How to list all my revokes?
+
+  `/listRevokes 1`
+  
+9. How to set an alarm to receive a notification when my revoke is ready to be confirmed?
+
+  `/alarmRevokes 1`
+  
+ 10. How to clean an alarm of Revokes?
+
+  `/cleanAlarmRevokes 1`
+
 **List of commands:**
 
 As a pre-requisite you need to have a username on Telegram (setusername on settings).
@@ -66,48 +108,6 @@ Yes, it does! If a newcomer on the waiting list has a counted backing higher tha
 How to clean the `/alarmCollatorRank`? <br />
 `/cleanalarmCollatorRank 1` where 1 is the address already registered.
 
-
-## How to use the MoonBot
-
-1. How to register my Moonbeam address?
-
-  `/setAddress 1 <myaddress>`
-
-2. How to list my registered addressed?
-
-  `/listAddress`
-
-3. How to check the status of all delegations of my address 1?
-
-  `/checkDelegations 1`
-
-4. How to configure an alarm to send me a notification when my balance of the address 1 change?
-  
-  `/alarmBalanceChange 1`
-  
-5. How to configure an alarm to send me notification when I stop receiving rewards of the address 1?
-  
-  `/alarmRewards 1`
-  
-6. How to configure an alarm to send me a notification when my balance reach a threshold of 100 GLMR?
-  
-  `/alarmBalanceTarget 1 100`
-
-7. How to clean an alarm of Balance Change of the address 1?
-
-  `/cleanAlarmBalanceChange 1`
-  
-8. How to list all my revokes?
-
-  `/listRevokes 1`
-  
-9. How to set an alarm to receive a notification when my revoke is ready to be confirmed?
-
-  `/alarmRevokes 1`
-  
- 10. How to clean an alarm of Revokes?
-
-  `/cleanAlarmRevokes 1`
 
 ## Use-Cases
 
