@@ -21,7 +21,10 @@ As a pre-requisite you need to have a username on Telegram (setusername on setti
 10. `/cleanAlarmBalanceTarget num`: delete the AlarmBalanceTarget alarm configuration of the address num;
 11. `/cleanAlarmBalanceChange num`: delete the AlarmBalanceChang alarm configuration of the address num;
 12. `/cleanAlarmRewards num`: delete the AlarmRewards alarm configuration of the address num;
-13. `/price`: get current GLMR prices from coingecko.com
+13. `/price`: get current GLMR prices from coingecko.com;
+14. `/listRevokes num`: lists all revokes scheduled for the address num;
+15. `/alarmRevokes num`: configure an alarm that will notify the address num when a revoke is ready to be confirmed;
+16. `/cleanAlarmRevokes num`: delete the AlarmRevokes alarm configuration of the address num;
 
 You need to use the `/setAddress` command to associate the id num (1 to 5) to your Moonbeam addresses, so you can refer them on the other bot commands.
 
@@ -93,6 +96,18 @@ How to clean the `/alarmCollatorRank`? <br />
 7. How to clean an alarm of Balance Change of the address 1?
 
   `/cleanAlarmBalanceChange 1`
+  
+8. How to list all my revokes?
+
+  `/listRevokes 1`
+  
+9. How to set an alarm to receive a notification when my revoke is ready to be confirmed?
+
+  `/alarmRevokes 1`
+  
+ 10. How to clean an alarm of Revokes?
+
+  `/cleanAlarmRevokes 1`
 
 ## Use-Cases
 
@@ -117,6 +132,9 @@ Resp: To deal with this situation, you have to set an `/alarmRewards` to your ad
 
 5. What happens if I staked GLMR in two collators and both were kicked out from the active pool set?
 Resp: You set an `/alarmRewards` and whenever you stop receiving rewards regardless of the collator you will receive a notification. And when both collators come back to the active set you will receive a notification that you begin receiving rewards again. 
+
+6. I execute a revoke of my GLRM, but it takes 7 days up to the moment that I can confirm the action. How can I set an alarm to notify myself that it's time to confirm the revoke?
+Resp: You set an `/alarmRevokes` for your Moonbeam address and whenever a revoke you initiated have finished after 7 days, you will receive a notification that it's time to confirm the action.
 
 
 PS: It's important to highlight that all informations that the bot handles are already public in the blockchain.
