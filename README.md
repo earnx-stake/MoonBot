@@ -133,7 +133,7 @@ Resp: To deal with this situation, you have to set an `/alarmRewards` to your ad
 5. What happens if I staked GLMR in two collators and both were kicked out from the active pool set?
 Resp: You set an `/alarmRewards` and whenever you stop receiving rewards regardless of the collator you will receive a notification. And when both collators come back to the active set you will receive a notification that you begin receiving rewards again. 
 
-6. I execute a revoke of my GLRM, but it takes 7 days up to the moment that I can confirm the action. How can I set an alarm to notify myself that it's time to confirm the revoke?
+6. I executed a revoke of my GLRM, but it takes 7 days up to the moment that I can confirm the action. How can I set an alarm to notify myself that it's time to confirm the revoke? <br />
 Resp: You set an `/alarmRevokes` for your Moonbeam address and whenever a revoke you initiated have finished after 7 days, you will receive a notification that it's time to confirm the action.
 
 
